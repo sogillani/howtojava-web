@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from './layout/NavBar'
 
 function App() {
   return (
-    <div className="center">
-      <h1>How to Java</h1>
+    <div>
+      <NavBar />
     </div>
   );
 }
